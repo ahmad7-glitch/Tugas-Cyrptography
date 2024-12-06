@@ -53,14 +53,14 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini sebagai executable:
 ### 1. Clone Repository
 Unduh repository ke perangkat lokal Anda dengan perintah berikut:
 ```bash
-git clone https://github.com/adityarifqyfauzan/cryptography.git
-cd cryptography
+git clone https://github.com/ahmad7-glitch/Tugas-Cyrptography.git
+cd Tugas-Cyrptography
 ```
 
 ### 2. Build Project
 Gunakan perintah berikut untuk membuat executable file dari kode sumber:
 ```bash
-go build -o cryptography
+go build -o Tugas-Cyrptography
 ```
 
 File executable dengan nama `cryptography` akan dibuat di direktori yang sama.
@@ -68,7 +68,7 @@ File executable dengan nama `cryptography` akan dibuat di direktori yang sama.
 ### 3. Jalankan Program
 Eksekusi file hasil build:
 ```bash
-./cryptography
+./Tugas-Cyrptography
 ```
 
 ### 4. (Opsional) Install Sebagai Go Installer
@@ -88,7 +88,7 @@ cryptography
 
 Berikut adalah struktur umum repository:
 ```
-cryptography/
+Tugas-Cyrptography/
 ├── main.go         # File utama untuk menjalankan program
 ├── cmd/            # Endpoint/Controller masing masing menu
 ├── crypto/         # Implementasi algoritma kriptografi
